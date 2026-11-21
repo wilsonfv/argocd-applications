@@ -14,6 +14,5 @@ Centralized repository for platform applications, Helm charts, and policies mana
   - `versions/`:
     - `3.23.0/charts/gatekeeper/`: Packaged Helm chart for OPA Gatekeeper v3.23.0
     - `3.23.1/charts/gatekeeper/`: Packaged Helm chart for OPA Gatekeeper v3.23.1
-  - `charts/gatekeeper/`: Default Gatekeeper Helm chart (v3.23.1)
   - `policies/`: Rego ConstraintTemplates and Constraints
   - `samples/`: Workloads demonstrating compliance & violation
