@@ -1,0 +1,10 @@
+apiVersion: v2
+name: istio-ztunnel
+description: Helm chart wrapping Istio Ztunnel (Zero Trust Tunnel) for Ambient Mode on GKE
+type: application
+version: 1.30.8
+appVersion: 1.30.8
+dependencies:
+  - name: ztunnel
+    version: 1.30.8
+    repository: https://blob.istio.io/istio-release/charts

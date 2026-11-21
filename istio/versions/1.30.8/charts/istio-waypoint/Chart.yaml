@@ -1,0 +1,10 @@
+apiVersion: v2
+name: istio-waypoint
+description: Helm chart wrapping Istio Gateway for Waypoint Proxies in Ambient Mode on GKE
+type: application
+version: 1.30.8
+appVersion: 1.30.8
+dependencies:
+  - name: gateway
+    version: 1.30.8
+    repository: https://blob.istio.io/istio-release/charts
