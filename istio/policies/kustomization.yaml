@@ -5,7 +5,7 @@ resources:
   - namespace.yaml
   - apps-ambient-namespace.yaml
   - network-policies.yaml
-  - resource-quotas.yaml
   - peer-authentication.yaml
   - authorization-policies.yaml
   - telemetry.yaml
+
